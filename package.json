@@ -1,0 +1,19 @@
+{
+  "name": "cse341",
+  "version": "1.0.0",
+  "description": "Lesson 1: Introducing our tech stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohsaraho/cse341.git"
+  },
+  "author": "Sarah Osguthorpe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohsaraho/cse341/issues"
+  },
+  "homepage": "https://github.com/ohsaraho/cse341#readme"
+}
