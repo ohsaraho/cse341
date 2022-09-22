@@ -1,0 +1,23 @@
+{
+    "contact1": {
+        "firstName": "Rebecca", 
+        "lastName": "Wall", 
+        "email": "rebeccao@gmail.com", 
+        "favoriteColor": "Purple", 
+        "birthday": "1960/09/13"
+    },
+    "contact2": {
+        "firstName": "Amy", 
+        "lastName": "Egan", 
+        "email": "amye@gmail.com", 
+        "favoriteColor": "Purple", 
+        "birthday": "1989/02/09"
+    },
+    "contact3": {
+        "firstName": "Lindsey", 
+        "lastName": "Hamilton", 
+        "email": "lindseyh@gmail.com", 
+        "favoriteColor": "Blue", 
+        "birthday": "1990/09/07"
+    }
+}
