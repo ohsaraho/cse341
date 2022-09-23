@@ -1,20 +1,18 @@
 const mongodb = require('../db/connect');
 const ObjectId = require('mongodb').ObjectId;
 
-const getAllIDs = async (req, res, next) => {
+const getAllIDs = async (req, res) => {
   const result = await mongodb.getDb().db('cse341_projects').collection('contacts').find();
-  result.toArray().then((lists) => {
-    res.setHeader('Content-Type', 'application/json');
-    res.status(200).json(lists);
+  result.toArray().then((documents) => {
+    res.json(documents);
   });
 };
 
-const getSingleID = async (req, res, next) => {
-  const userId = new ObjectId(req.params.id);
-  const result = await mongodb.getDb().db('cse341_projects').collection('contacts').find({ _id: userId });
-  result.toArray().then((lists) => {
-    res.setHeader('Content-Type', 'application/json');
-    res.status(200).json(lists[0]);
+const getSingleID = async (req, res) => {
+  const documentId = new ObjectId(req.params.id);
+  const result = await mongodb.getDb().db('cse341_projects').collection('contacts').find({ _id: documentId });
+  result.toArray().then((document) => {
+    res.json(document[0])
   });
 };
 
