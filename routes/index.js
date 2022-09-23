@@ -5,8 +5,16 @@
 
 // module.exports = routes;
 
-const routes = require('express').Router();
 
-routes.use('/contacts', './contacts');
+// const routes = require('express').Router();
 
-module.exports = routes;
+// routes.use('/contactsRoute', './contactsRoute');
+
+// module.exports = routes;
+
+const express = require('express');
+const router = express.Router();
+
+router.use('/contacts', require('./contacts'))
+
+module.exports = router;
