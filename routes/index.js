@@ -6,12 +6,6 @@
 // module.exports = routes;
 
 
-// const routes = require('express').Router();
-
-// routes.use('/contactsRoute', './contactsRoute');
-
-// module.exports = routes;
-
 const express = require('express');
 const router = express.Router();
 
