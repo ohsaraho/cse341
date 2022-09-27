@@ -1,0 +1,79 @@
+// Localhost
+###
+GET http://localhost:3000/contacts
+###
+GET http://localhost:3000/contacts/632bf13d8d980b27b004bd05
+###
+GET http://localhost:3000/contacts/632bf1fd8d980b27b004bd06
+###
+GET http://localhost:3000/contacts/632bf2428d980b27b004bd07
+
+
+// Render
+###
+GET https://so-personal-assignment-one.onrender.com/contacts
+###
+GET https://so-personal-assignment-one.onrender.com/contacts/632bf13d8d980b27b004bd05
+###
+GET https://so-personal-assignment-one.onrender.com/contacts/632bf1fd8d980b27b004bd06
+###
+GET https://so-personal-assignment-one.onrender.com/contacts/632bf2428d980b27b004bd07
+
+
+// Localhost
+### Create contact 
+POST http://localhost:3000/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Patty",
+    "lastName": "Wall",
+    "email": "pattyWall@gmail.com",
+    "favoriteColor": "Green",
+    "birthday": "1968-04-10T07:00:00.000+00:00"
+}
+
+### Updated contact 
+PUT http://localhost:3000/contacts/6332944c64f9cd3f3ed58fcc HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Patty",
+    "lastName": "Wall",
+    "email": "pattyw@gmail.com",
+    "favoriteColor": "Red",
+    "birthday": "1968-04-10T07:00:00.000+00:00"
+}
+
+### Delete contact 
+DELETE http://localhost:3000/contacts/6332a410d610810b3a698a9c HTTP/1.1
+
+
+
+// Render
+### Create contact 
+POST https://so-personal-assignment-one.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Ashley",
+    "lastName": "Hamilton",
+    "email": "ashleyh@gmail.com",
+    "favoriteColor": "Green",
+    "birthday": "1996-08-12T07:00:00.000+00:00"
+}
+
+### Updated contact 
+PUT https://so-personal-assignment-one.onrender.com/contacts/6332944c64f9cd3f3ed58fcc HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Patty",
+    "lastName": "Wall",
+    "email": "pattyw@gmail.com",
+    "favoriteColor": "Red",
+    "birthday": "1968-04-10T07:00:00.000+00:00"
+}
+
+### Delete contact 
+DELETE https://so-personal-assignment-one.onrender.com/contacts/6332944c64f9cd3f3ed58fcc HTTP/1.1
