@@ -64,7 +64,7 @@ content-type: application/json
 }
 
 ### Updated contact 
-PUT https://so-personal-assignment-one.onrender.com/contacts/6333bdc36c0f81f076ae4c2b HTTP/1.1
+PUT https://so-personal-assignment-one.onrender.com/contacts/6333c1dfce9aaeddf709b441 HTTP/1.1
 content-type: application/json
 
 {
@@ -76,4 +76,4 @@ content-type: application/json
 }
 
 ### Delete contact 
-DELETE https://so-personal-assignment-one.onrender.com/contacts/6333bdc36c0f81f076ae4c2b HTTP/1.1
+DELETE https://so-personal-assignment-one.onrender.com/contacts/6333c1dfce9aaeddf709b441 HTTP/1.1
