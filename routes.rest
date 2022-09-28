@@ -34,19 +34,19 @@ content-type: application/json
 }
 
 ### Updated contact 
-PUT http://localhost:3000/contacts/6333b9a5b841f4219b535a77 HTTP/1.1
+PUT http://localhost:3000/contacts/632bf2428d980b27b004bd07 HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Patty",
-    "lastName": "Wall",
-    "email": "pattyw@gmail.com",
-    "favoriteColor": "Red",
-    "birthday": "1968-04-10T07:00:00.000+00:00"
+    "firstName": "Lindsey",
+    "lastName": "Hamilton",
+    "email": "lindseyh@gmail.com",
+    "favoriteColor": "Lavender",
+    "birthday": "1990-09-07T06:00:00.000Z"
 }
 
 ### Delete contact 
-DELETE http://localhost:3000/contacts/6333b9a5b841f4219b535a77 HTTP/1.1
+DELETE http://localhost:3000/contacts/6333bdc36c0f81f076ae4c2b HTTP/1.1
 
 
 
@@ -64,7 +64,7 @@ content-type: application/json
 }
 
 ### Updated contact 
-PUT https://so-personal-assignment-one.onrender.com/contacts/6333b9a5b841f4219b535a77 HTTP/1.1
+PUT https://so-personal-assignment-one.onrender.com/contacts/6333bdc36c0f81f076ae4c2b HTTP/1.1
 content-type: application/json
 
 {
@@ -76,4 +76,4 @@ content-type: application/json
 }
 
 ### Delete contact 
-DELETE https://so-personal-assignment-one.onrender.com/contacts/6333b9a5b841f4219b535a77 HTTP/1.1
+DELETE https://so-personal-assignment-one.onrender.com/contacts/6333bdc36c0f81f076ae4c2b HTTP/1.1
