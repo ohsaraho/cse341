@@ -34,7 +34,7 @@ content-type: application/json
 }
 
 ### Updated contact 
-PUT http://localhost:3000/contacts/6332944c64f9cd3f3ed58fcc HTTP/1.1
+PUT http://localhost:3000/contacts/6333b9a5b841f4219b535a77 HTTP/1.1
 content-type: application/json
 
 {
@@ -46,7 +46,7 @@ content-type: application/json
 }
 
 ### Delete contact 
-DELETE http://localhost:3000/contacts/6332a410d610810b3a698a9c HTTP/1.1
+DELETE http://localhost:3000/contacts/6333b9a5b841f4219b535a77 HTTP/1.1
 
 
 
@@ -64,7 +64,7 @@ content-type: application/json
 }
 
 ### Updated contact 
-PUT https://so-personal-assignment-one.onrender.com/contacts/6332944c64f9cd3f3ed58fcc HTTP/1.1
+PUT https://so-personal-assignment-one.onrender.com/contacts/6333b9a5b841f4219b535a77 HTTP/1.1
 content-type: application/json
 
 {
@@ -76,4 +76,4 @@ content-type: application/json
 }
 
 ### Delete contact 
-DELETE https://so-personal-assignment-one.onrender.com/contacts/6332944c64f9cd3f3ed58fcc HTTP/1.1
+DELETE https://so-personal-assignment-one.onrender.com/contacts/6333b9a5b841f4219b535a77 HTTP/1.1
