@@ -9,7 +9,7 @@
 const express = require('express');
 const router = express.Router();
 
-router.use('/', require('./swagger'));
+router.use('/api-docs', require('./swagger'));
 router.use('/contacts', require('./contactsRoute'))
 
 module.exports = router;
